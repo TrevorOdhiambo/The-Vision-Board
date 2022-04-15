@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'vision_board.apps.VisionBoardConfig',
     #3rd party
-    'crispy_forms',
+   
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -137,4 +137,4 @@ LOGIN_REDIRECT_URL = 'dashboard'
 
 LOGOUT_REDIRECT_URL = 'index'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+#CRISPY_TEMPLATE_PACK = 'bootstrap4'
